@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.stopwatch-container {
+  width: 250px;
+  margin: 0 auto;
+  top:50px;
+  right: 430px;
+  padding: 80px;
+  position: absolute;
+  border: 6px solid #162f41;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.timer {
+  border: 2px solid #223d5a; 
+  padding: 20px;
+  border-radius: 10px; 
+  margin-bottom: 20px; 
+  background-color: #cbdbec;
+}
+
+h1 {
+  font-size: 2.7rem;
+  color: #1a485e;
+  margin-top: -40px;
+  margin-left: -1c0px;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #1a485e;
+}
+
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px; 
+}
+
+.buttons button {
+  font-size: 1.4rem;
+  padding: 10px 10px;
+  margin: 0; 
+  cursor: pointer;
+  background-color: #223d5a;
+  color: white;
+  border: none;
+}
+
+.buttons button:hover {
+  background-color: #cbdbec;
+}
+
+.laps {
+  margin-top: 30px;
+}
+
+.laps h3 {
+  font-size: 1.5rem;
+  color: #1a485e;
+}
+
+.laps ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.laps li {
+  font-size: 1.2rem;
+  margin: 5px 0;
+  color: #1a485e;
+}
